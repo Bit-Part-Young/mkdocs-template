@@ -8,6 +8,24 @@ Mkdocs 模板。
 
 ## 使用
 
+### LaTeX 公式
+
+内联公式：使用 `$...$`，如 $f(x) = x^2$ 。
+
+行间公式：使用 `$$...$$`，如
+
+```markdown
+$$
+F(x) = \int^a_b \frac{1}{2}x^4
+$$
+```
+
+$$
+F(x) = \int^a_b \frac{1}{2}x^4
+$$
+
+---
+
 ### 不同代码块的互相切换
 
 === "Python"
@@ -24,7 +42,7 @@ Mkdocs 模板。
 
 ---
 
-## mkdocs Admonitions
+### mkdocs Admonitions
 
 !!! abstract
     这里是 abstract
