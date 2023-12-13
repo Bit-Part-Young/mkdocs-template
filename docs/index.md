@@ -1,6 +1,6 @@
 # MkDocs template
 
-[![CI Status](https://github.com/Bit-Part-Young/mkdocs-template/actions/workflows/mkdocs-deploy.yml/badge.svg)](https://github.com/Bit-Part-Young/template/actions/workflows/mkdocs-deploy.yml)
+[![CI Status](https://github.com/Bit-Part-Young/mkdocs-template/actions/workflows/mkdocs-deploy.yml/badge.svg)](https://github.com/Bit-Part-Young/mkdocs-template/actions/workflows/mkdocs-deploy.yml)
 
 Mkdocs 模板。
 
