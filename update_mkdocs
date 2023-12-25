@@ -6,11 +6,11 @@ readmd_fn="README.md"
 assets_dn="assets"
 mkdocs_content_dn="docs"
 
-if [[ ! -f ${readmd_fn} ]]; then
+if [[ -f ${readmd_fn} ]]; then
     cp ${readmd_fn} ${mkdocs_content_dn}/index.md
 fi
 
-if [[  -d ${assets_dn} ]]; then
+if [[ -d ${assets_dn} ]]; then
     cp -r ${assets_dn} ${mkdocs_content_dn}
 fi
 
