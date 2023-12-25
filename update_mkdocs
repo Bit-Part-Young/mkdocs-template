@@ -6,8 +6,13 @@ readmd_fn="README.md"
 assets_dn="assets"
 mkdocs_content_dn="docs"
 
-cp ${readmd_fn} ${mkdocs_content_dn}/index.md
-cp -r ${assets_dn} ${mkdocs_content_dn}
+if [[ ! -f ${readmd_fn} ]]; then
+    cp ${readmd_fn} ${mkdocs_content_dn}/index.md
+fi
+
+if [[  -d ${assets_dn} ]]; then
+    cp -r ${assets_dn} ${mkdocs_content_dn}
+fi
 
 
 git_update(){
@@ -15,7 +20,7 @@ git_update(){
     git status --short --branch
     echo
     git add ${mkdocs_content_dn}
-    git commit -m "update mkdocs content"
+    git commit -m "update mkdocs contents"
     echo
 }
 
