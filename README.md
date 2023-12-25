@@ -4,6 +4,34 @@
 
 Mkdocs 模板。
 
+**Features**:
+
+- 已配置 GitHub Actions，可自动部署到 GitHub Pages
+- LaTeX 公式渲染
+
+---
+
+## 搭建
+
+- 搭建 MkDocs 环境
+
+```bash
+conda create -n mkdocs python=3.11
+
+conda activate mkdocs
+pip install -r requirements.txt
+```
+
+- 自定义修改 `mkdocs.yml` 配置文件相关内容
+
+- 本地预览；手动部署到 GitHub Pages
+
+```bash
+mkdocs serve
+
+mkdocs gh-deploy
+```
+
 ---
 
 ## 使用
