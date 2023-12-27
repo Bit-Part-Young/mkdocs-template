@@ -11,6 +11,12 @@ Mkdocs 模板。
 
 ---
 
+效果图：
+
+![mkdocs-effect](./assets/mkdocs-effect.png)
+
+---
+
 ## 搭建
 
 - 搭建 MkDocs 环境
