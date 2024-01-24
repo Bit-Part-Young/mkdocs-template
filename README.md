@@ -22,10 +22,16 @@ Mkdocs 模板。
 - 搭建 MkDocs 环境
 
 ```bash
+# 方式 1
 conda create -n mkdocs python=3.11
 
 conda activate mkdocs
 pip install -r requirements.txt
+
+# 方式 2
+./setup.sh
+
+source venv/bin/activate
 ```
 
 - 自定义修改 `mkdocs.yml` 配置文件相关内容
@@ -33,8 +39,10 @@ pip install -r requirements.txt
 - 本地预览；手动部署到 GitHub Pages
 
 ```bash
+#  本地预览
 mkdocs serve
 
+# 部署到 GitHub Pages
 mkdocs gh-deploy
 ```
 
