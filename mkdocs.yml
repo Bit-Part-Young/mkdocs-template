@@ -3,7 +3,8 @@ site_description: MkDocs template
 site_url: https://seekanotherland.xyz/mkdocs-template/
 repo_name: Bit-Part-Young/mkdocs-template/
 repo_url: https://github.com/Bit-Part-Young/mkdocs-template/
-copyright: Copyright &copy 2023-2023
+edit_uri: blob/main/docs/
+copyright: Copyright &copy 2023-2024
 
 
 theme:
@@ -24,6 +25,7 @@ theme:
     - navigation.indexes
     - navigation.top
     - navigation.footer
+    - toc.follow
   # palette:
   # - scheme: default
   # reference: https://github.com/HobbitQia/notebook/blob/note1/mkdocs.yml
@@ -51,6 +53,9 @@ extra:
     - name: Home
       icon: fontawesome/solid/house-chimney
       link: https://seekanotherland.xyz/mkdocs-template/
+    - name: Blog
+      icon: fontawesome/solid/blog
+      link: https://seekanotherland.xyz/hexo-demo
 
 
 # Extensions
